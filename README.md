@@ -17,9 +17,9 @@
 . Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a lista de itens, que é envolto por colchetes []. A linha terá o seguinte formato: 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
 
 ### Exemplo dos dados que o sistema deve ler
-001ç05708232005çJean Gray Summersç50000 
-001ç41093470097çCharles Xavierç40000.99 
-002ç92560174000127çEric Von DoomçLatveria 
-002ç28973199000153çTony StarkçStark Enterprise 
-003ç03ç[1-10-1000000,2-30-1000000,3-40-1000000]çJean Gray Summers 
-003ç04ç[1-34-10,2-33-1.50,3-40-0.10]çCharles Xavier 
+001ç05708232005çJean Gray Summersç50000   
+001ç41093470097çCharles Xavierç40000.99   
+002ç92560174000127çEric Von DoomçLatveria   
+002ç28973199000153çTony StarkçStark Enterprise   
+003ç03ç[1-10-1000000,2-30-1000000,3-40-1000000]çJean Gray Summers     
+003ç04ç[1-34-10,2-33-1.50,3-40-0.10]çCharles Xavier     
