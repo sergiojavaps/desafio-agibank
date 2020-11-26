@@ -33,7 +33,7 @@ class ModelTests {
     }
 
 	@Test 
-	void testSalesmanLineStorage() {
+	void testSalesmanLineSummary() {
 		String[] line = {"001ç93616248060çLoganç5240.03"};
 	    read.lineInterpreter(Arrays.stream(line), saleSummary);
 	    Salesman salesman = saleSummary.getSalespeople().get(0);
@@ -43,7 +43,7 @@ class ModelTests {
 	 }
 	 
 	@Test
-    void testCostumerLineStorage() {
+    void testCostumerLineSummary() {
         String[] line = {"002ç11467794000114çTony StarkçCiência"};
         read.lineInterpreter(Arrays.stream(line), saleSummary);
         Costumer costumer = saleSummary.getCostumers().get(0);
@@ -53,7 +53,7 @@ class ModelTests {
     }
 	
 	@Test
-    void testSaleLineStorage() {
+    void testSaleLineSummary() {
         String[] line = {"003ç25ç[21-200-800]çVan Bastern"};
         read.lineInterpreter(Arrays.stream(line), saleSummary);
 

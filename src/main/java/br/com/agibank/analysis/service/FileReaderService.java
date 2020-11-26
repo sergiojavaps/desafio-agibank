@@ -15,7 +15,7 @@ import br.com.agibank.analysis.model.SaleSummary;
  * 
  * Responsible for reading data from input files
  * 
- * @author sergio
+ * @author sergio.melo
  *
  */
 @Service
