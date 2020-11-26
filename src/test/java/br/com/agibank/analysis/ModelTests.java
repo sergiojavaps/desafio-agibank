@@ -22,7 +22,6 @@ import br.com.agibank.analysis.service.FileReaderService;
 @SpringBootTest
 class ModelTests {
 
-	
 	private SaleSummary saleSummary;
 	@Autowired
 	private FileReaderService read;

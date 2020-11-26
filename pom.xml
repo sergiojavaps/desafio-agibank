@@ -44,8 +44,7 @@
 		
 		<dependency>
             <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
+            <artifactId>junit-jupiter</artifactId>           
             <scope>test</scope>
         </dependency>
 	</dependencies>

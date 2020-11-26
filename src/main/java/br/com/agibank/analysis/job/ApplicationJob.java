@@ -60,7 +60,7 @@ public class ApplicationJob {
 			find.search(System.getProperty("user.home") + configProperties.getInpuFilePath()).stream()
 			.forEach(file -> reader.readFile(file, System.getProperty("user.home") + configProperties.getOutputFilePath()));
 		} catch (Exception e) {
-			logger.error(e.getMessage());
+			logger.error("" + e);
 		}
     }
      

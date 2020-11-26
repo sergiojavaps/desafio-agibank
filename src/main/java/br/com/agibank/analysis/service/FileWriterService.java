@@ -20,15 +20,15 @@ import br.com.agibank.analysis.model.SaleSummary;
 @Service
 public class FileWriterService {
 
-	public static void generateFile(Path file, SaleSummary storage, String outputFilePath){
+	public void generateFile(Path file, SaleSummary saleSummary, String outputFilePath){
         try {        	      
         	StringBuilder outputFileName = new StringBuilder().append(outputFilePath).append(FilenameUtils
         			.getBaseName(file.toString())).append(".done.dat");        	 
             FileWriter fileWriter = new FileWriter(outputFileName.toString());
-            fileWriter.write(lineConstructor("Total customers: " + storage.totalCostumers()));
-            fileWriter.write(lineConstructor("Total sellers: " + storage.totalSalespeople()));
-            fileWriter.write(lineConstructor("Most expensive sale ID: " + storage.getHighestSale()));
-            fileWriter.write(lineConstructor("The worst seller: " + storage.getWorstVendorName()));
+            fileWriter.write(lineConstructor("Total customers: " + saleSummary.totalCostumers()));
+            fileWriter.write(lineConstructor("Total sellers: " + saleSummary.totalSalespeople()));
+            fileWriter.write(lineConstructor("Most expensive sale ID: " + saleSummary.getHighestSale()));
+            fileWriter.write(lineConstructor("The worst seller: " + saleSummary.getWorstVendorName()));
             fileWriter.close();
         } catch (IOException e) {
             e.printStackTrace();

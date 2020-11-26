@@ -6,6 +6,7 @@ import java.nio.file.Path;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.agibank.analysis.model.GenericType;
@@ -21,13 +22,16 @@ import br.com.agibank.analysis.model.SaleSummary;
 @Service
 public class FileReaderService {
 
+	@Autowired
+	private FileWriterService fileWriterService;
+	
 	public void readFile(Path file, String outputFilePath) {
 		try {
-		    SaleSummary storage = new SaleSummary();
+		    SaleSummary saleSummary = new SaleSummary();
 		    Stream<String> stream = Files.lines(file);
-		    lineInterpreter(stream, storage);
-		    FileWriterService.generateFile(file, storage, outputFilePath);
-		    storage.finalize();
+		    lineInterpreter(stream, saleSummary);
+		    fileWriterService.generateFile(file, saleSummary, outputFilePath);
+		    saleSummary.finalize();
 		} catch (IOException e) {
 		    e.printStackTrace();
 		}
