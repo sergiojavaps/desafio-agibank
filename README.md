@@ -22,4 +22,14 @@ Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a li
 002ç92560174000127çEric Von DoomçLatveria   
 002ç28973199000153çTony StarkçStark Enterprise   
 003ç03ç[1-10-1000000,2-30-1000000,3-40-1000000]çJean Gray Summers     
-003ç04ç[1-34-10,2-33-1.50,3-40-0.10]çCharles Xavier     
+003ç04ç[1-34-10,2-33-1.50,3-40-0.10]çCharles Xavier
+
+### O conteúdo do arquivo de saída, {flat_file_name}.done.dat, resume os dados:
+. Quantidade de clientes no arquivo de entrada
+. Quantidade de vendedor no arquivo de entrada
+. ID da venda mais cara
+. O pior vendedor
+
+### Repositórios:
+
+## Execução
