@@ -33,9 +33,9 @@ class ReadFileTests {
         when(fileFinderService.search(anyString()))
                 .thenThrow(IOException.class);
         fileFinderService.search("");
-        
+        fail();
 		} catch (IOException e) {
-			fail(e);
+			assertNotNull(e);
 		}
     }
 
