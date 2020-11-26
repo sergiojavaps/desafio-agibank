@@ -10,11 +10,11 @@
 5. Os arquivos processados são gerados na pasta %HOMEPATH%/data/out. 
 6. Existem três tipos de dados dentro dos arquivos.
 ### Dados do vendedor
-. Os dados do vendedor têm o formato id 001 e a linha terá o seguinte formato: 001çCPFçNameçSalary
+Os dados do vendedor têm o formato id 001 e a linha terá o seguinte formato: 001çCPFçNameçSalary
 ### Dados do cliente
-. Os dados do cliente têm o formato id 002 e a linha terá o seguinte formato: 002çCNPJçNameçBusiness Area
+Os dados do cliente têm o formato id 002 e a linha terá o seguinte formato: 002çCNPJçNameçBusiness Area
 ### Dados de vendas
-. Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a lista de itens, que é envolto por colchetes []. A linha terá o seguinte formato: 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
+Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a lista de itens, que é envolto por colchetes []. A linha terá o seguinte formato: 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
 
 ### Exemplo dos dados que o sistema deve ler
 001ç05708232005çJean Gray Summersç50000   
