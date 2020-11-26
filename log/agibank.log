@@ -1,0 +1,195 @@
+2020-11-25 16:37:18.961  INFO 6944 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 6944 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 16:37:18.962  INFO 6944 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 16:37:19.168  INFO 6944 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 16:37:19.176  INFO 6944 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.376 seconds (JVM running for 0.611)
+2020-11-25 16:37:20.001  INFO 6944 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:37:30.000  INFO 6944 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:37:40.000  INFO 6944 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:37:50.000  INFO 6944 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:37:51.882  INFO 6944 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 16:37:51.883  INFO 6944 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 16:54:06.410  INFO 7910 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 7910 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 16:54:06.411  INFO 7910 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 16:54:06.613  INFO 7910 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 16:54:06.622  INFO 7910 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.375 seconds (JVM running for 0.623)
+2020-11-25 16:54:10.001  INFO 7910 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:54:20.001  INFO 7910 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:54:30.000  INFO 7910 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:54:40.000  INFO 7910 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:54:47.058  INFO 7910 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 16:54:47.062  INFO 7910 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 16:54:53.717  INFO 7962 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 7962 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 16:54:53.718  INFO 7962 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 16:54:53.946  INFO 7962 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 16:54:53.954  INFO 7962 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.416 seconds (JVM running for 0.668)
+2020-11-25 16:55:00.001  INFO 7962 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:55:10.000  INFO 7962 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:55:20.001  INFO 7962 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:55:28.379  INFO 7962 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 16:55:28.380  INFO 7962 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 16:55:43.034  INFO 8022 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 8022 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 16:55:43.036  INFO 8022 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 16:55:43.240  INFO 8022 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 16:55:43.248  INFO 8022 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.379 seconds (JVM running for 0.661)
+2020-11-25 16:55:50.000  INFO 8022 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:56:00.000  INFO 8022 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:56:10.001  INFO 8022 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:56:20.000  INFO 8022 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 16:56:25.471  INFO 8022 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 16:56:25.472  INFO 8022 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:27:38.707  INFO 9228 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9228 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:27:38.709  INFO 9228 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:27:38.950  INFO 9228 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:27:38.963  INFO 9228 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.43 seconds (JVM running for 0.674)
+2020-11-25 17:27:40.001  INFO 9228 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:27:50.001  INFO 9228 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:28:00.000  INFO 9228 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:28:02.428  INFO 9228 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:28:02.429  INFO 9228 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:29:31.343  INFO 9501 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9501 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:29:31.345  INFO 9501 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:29:31.562  INFO 9501 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:29:31.570  INFO 9501 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.4 seconds (JVM running for 0.657)
+2020-11-25 17:29:40.001  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:29:40.003  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:29:50.000  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:29:50.001  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:30:00.000  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:30:00.001  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:30:10.001  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:30:10.001  INFO 9501 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:30:10.579  INFO 9501 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:30:10.581  INFO 9501 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:33:01.416  INFO 9772 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9772 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:33:01.417  INFO 9772 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:33:01.621  INFO 9772 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:33:01.629  INFO 9772 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.374 seconds (JVM running for 0.623)
+2020-11-25 17:33:10.001  INFO 9772 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:33:10.003  INFO 9772 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:33:20.000  INFO 9772 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:33:20.001  INFO 9772 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:33:28.408  INFO 9772 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:33:28.409  INFO 9772 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:37:06.869  INFO 10033 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10033 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:37:06.871  INFO 10033 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:37:07.111  INFO 10033 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:37:07.121  INFO 10033 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.435 seconds (JVM running for 0.697)
+2020-11-25 17:37:10.000  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:37:10.002  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:37:20.001  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:37:20.002  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:37:30.000  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:37:30.001  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:37:40.000  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:37:40.001  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:37:50.000  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:37:50.001  INFO 10033 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : ./data/in
+2020-11-25 17:37:52.080  INFO 10033 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:37:52.082  INFO 10033 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:42:12.520  INFO 10348 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10348 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:42:12.521  INFO 10348 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:42:12.727  INFO 10348 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:42:12.736  INFO 10348 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.381 seconds (JVM running for 0.631)
+2020-11-25 17:42:20.001  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:42:30.001  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:42:40.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:42:50.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:00.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:10.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:20.001  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:30.001  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:40.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:50.000  INFO 10348 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:43:51.967  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:43:51.967  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:44:09.587  INFO 10509 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10509 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:44:09.589  INFO 10509 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:44:09.793  INFO 10509 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:44:09.801  INFO 10509 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.383 seconds (JVM running for 0.626)
+2020-11-25 17:44:10.000  INFO 10509 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:44:20.000  INFO 10509 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:44:30.001  INFO 10509 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:44:40.000  INFO 10509 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:44:50.001  INFO 10509 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:44:51.796  INFO 10509 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:44:51.797  INFO 10509 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:48:28.729  INFO 10730 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10730 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:48:28.731  INFO 10730 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:48:28.938  INFO 10730 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:48:28.947  INFO 10730 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.38 seconds (JVM running for 0.628)
+2020-11-25 17:48:30.001  INFO 10730 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:48:40.000  INFO 10730 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:48:40.546  INFO 10730 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:48:40.547  INFO 10730 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:51:03.993  INFO 11240 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 11240 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:51:03.995  INFO 11240 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:51:04.230  INFO 11240 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:51:04.240  INFO 11240 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.431 seconds (JVM running for 0.68)
+2020-11-25 17:51:10.001  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:51:20.001  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:51:30.000  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:51:40.000  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:51:50.001  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:52:00.000  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:52:10.000  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:52:20.000  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:52:30.001  INFO 11240 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:52:34.169  INFO 11240 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:52:34.170  INFO 11240 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 17:56:22.196  INFO 11899 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 11899 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 17:56:22.197  INFO 11899 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 17:56:22.399  INFO 11899 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 17:56:22.407  INFO 11899 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.371 seconds (JVM running for 0.626)
+2020-11-25 17:56:30.001  INFO 11899 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 17:56:32.627  INFO 11899 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 17:56:32.628  INFO 11899 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 18:04:46.223  INFO 12372 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 12372 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 18:04:46.224  INFO 12372 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 18:04:46.431  INFO 12372 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 18:04:46.440  INFO 12372 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.383 seconds (JVM running for 0.638)
+2020-11-25 18:04:50.000  INFO 12372 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 18:04:54.029  INFO 12372 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 18:04:54.029  INFO 12372 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:22:58.112  INFO 18429 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 18429 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:22:58.115  INFO 18429 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:22:58.489  INFO 18429 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:22:58.507  INFO 18429 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.626 seconds (JVM running for 1.306)
+2020-11-25 19:22:58.660  INFO 18429 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:23:53.481  INFO 18532 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 18532 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:23:53.486  INFO 18532 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:23:53.827  INFO 18532 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:23:53.843  INFO 18532 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.588 seconds (JVM running for 1.308)
+2020-11-25 19:23:53.972  INFO 18532 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:25:18.980  INFO 18604 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 18604 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:25:18.982  INFO 18604 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-11-25 19:25:19.311  INFO 18604 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:25:19.325  INFO 18604 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.572 seconds (JVM running for 0.884)
+2020-11-25 19:25:20.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:25:30.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:25:40.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:25:50.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:26:00.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:26:10.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:26:20.000  INFO 18604 --- [scheduling-1] b.c.agibank.analysis.job.ApplicationJob  : teste
+2020-11-25 19:26:21.568  INFO 18604 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-11-25 19:26:21.569  INFO 18604 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:39:04.743  INFO 19610 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 19610 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:39:04.746  INFO 19610 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:39:05.102  INFO 19610 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:39:05.115  INFO 19610 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.564 seconds (JVM running for 1.155)
+2020-11-25 19:39:05.235  INFO 19610 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:39:22.687  INFO 19665 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 19665 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:39:22.689  INFO 19665 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:39:22.989  INFO 19665 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:39:23.000  INFO 19665 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.484 seconds (JVM running for 1.103)
+2020-11-25 19:39:23.099  INFO 19665 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:39:48.321  INFO 19771 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 19771 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:39:48.323  INFO 19771 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:39:48.683  INFO 19771 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:39:48.697  INFO 19771 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.572 seconds (JVM running for 1.124)
+2020-11-25 19:39:48.842  INFO 19771 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-11-25 19:47:13.378  INFO 20429 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 20429 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-11-25 19:47:13.381  INFO 20429 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-11-25 19:47:13.679  INFO 20429 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-11-25 19:47:13.689  INFO 20429 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.477 seconds (JVM running for 1.013)
+2020-11-25 19:47:13.807  INFO 20429 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
