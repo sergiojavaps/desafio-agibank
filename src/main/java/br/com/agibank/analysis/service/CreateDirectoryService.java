@@ -21,8 +21,8 @@ public class CreateDirectoryService {
 	ConfigProperties configProperties;
 	
 	public void create() {
-		new File(configProperties.getInpuFilePath()).mkdirs();
-		new File(configProperties.getOutputFilePath()).mkdirs();
+		new File(System.getProperty("user.home") + configProperties.getInpuFilePath()).mkdirs();
+		new File(System.getProperty("user.home") + configProperties.getOutputFilePath()).mkdirs();
 	}
 	
 }

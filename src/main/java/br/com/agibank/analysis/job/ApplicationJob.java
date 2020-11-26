@@ -1,5 +1,7 @@
 package br.com.agibank.analysis.job;
 
+import javax.annotation.PostConstruct;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +35,16 @@ public class ApplicationJob {
     @Autowired
     private ConfigProperties configProperties;
     
+    @PostConstruct
+    private void ini() {
+    	logger.info("-------------------");
+    	logger.info(" INI JOB");
+    	logger.info("-------------------");    	
+    	logger.info("Local directories created:");
+    	logger.info(System.getProperty("user.home") + configProperties.getInpuFilePath());
+    	logger.info(System.getProperty("user.home") + configProperties.getOutputFilePath());    	
+    }
+    
     /**
      * 
      * job scheduling and execution
@@ -44,12 +56,11 @@ public class ApplicationJob {
     @Async
     public void processFilesJob() {
     	try {
-    		logger.info("job");
     		createDirectoriesService.create();
-			find.search(configProperties.getInpuFilePath()).stream()
-			.forEach(file -> reader.readFile(file, configProperties.getOutputFilePath()));
+			find.search(System.getProperty("user.home") + configProperties.getInpuFilePath()).stream()
+			.forEach(file -> reader.readFile(file, System.getProperty("user.home") + configProperties.getOutputFilePath()));
 		} catch (Exception e) {
-			logger.info(e.getMessage());
+			logger.error(e.getMessage());
 		}
     }
      

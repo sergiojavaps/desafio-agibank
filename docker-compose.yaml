@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+  app:
+  
+      image: desafio-agibank
+      
+      container_name: agibank-container
+      
+      
+    
+    
+    
