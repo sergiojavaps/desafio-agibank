@@ -32,4 +32,6 @@ Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a li
 
 ### Repositórios:
 
-## Execução
+### Execução
+- Na raiz do projeto: ./mvnw spring-boot:run
+- Docker Compose: 
