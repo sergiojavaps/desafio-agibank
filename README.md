@@ -30,6 +30,14 @@ Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a li
 - ID da venda mais cara
 - O pior vendedor
 
+### Tecnologias
+- Spring Boot v2.4.0
+- Java 8
+- Maven 3.1.1
+- Docker
+- Docker Compose
+- Spring Tool Suite
+- Linux
 ### Repositórios:
 
 ### Execução
