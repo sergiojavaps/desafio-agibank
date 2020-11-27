@@ -39,7 +39,7 @@ Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a li
 - Spring Tool Suite
 - Linux
 ### Repositórios:
-
+- https://hub.docker.com/repository/docker/sergiomelo/desafio-agibank
 ### Execução
 - Na raiz do projeto: ./mvnw spring-boot:run
 - Docker Compose: 
