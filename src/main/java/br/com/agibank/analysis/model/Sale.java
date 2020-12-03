@@ -40,8 +40,8 @@ public class Sale extends GenericType{
     }
 
 	@Override
-	public void store(SaleSummary storage) {
-		storage.addSale(this);
+	public void store(Store store) {
+		store.addSale(this);
 	}
 
 }

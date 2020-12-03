@@ -13,6 +13,7 @@ import br.com.agibank.analysis.configuration.ConfigProperties;
 import br.com.agibank.analysis.service.CreateDirectoryService;
 import br.com.agibank.analysis.service.FileFinderService;
 import br.com.agibank.analysis.service.FileReaderService;
+import br.com.agibank.analysis.service.SaleSummaryService;
 
 /**
  * class responsible for executing the file processing job
@@ -32,6 +33,8 @@ public class ApplicationJob {
     private FileReaderService reader;
     @Autowired
     private FileFinderService find;
+    @Autowired
+    private SaleSummaryService saleSummaryService;
     @Autowired
     private ConfigProperties configProperties;
     
@@ -58,7 +61,7 @@ public class ApplicationJob {
     	try {
     		createDirectoriesService.create();
 			find.search(System.getProperty("user.home") + configProperties.getInpuFilePath()).stream()
-			.forEach(file -> reader.readFile(file, System.getProperty("user.home") + configProperties.getOutputFilePath()));
+			.forEach(file -> reader.readFile(file, System.getProperty("user.home") + configProperties.getOutputFilePath(), saleSummaryService));
 		} catch (Exception e) {
 			logger.error("" + e);
 		}

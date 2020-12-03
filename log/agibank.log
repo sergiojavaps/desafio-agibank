@@ -1,147 +1,276 @@
-2020-11-26 19:42:42.788  INFO 6836 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 6836 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 19:42:42.789  INFO 6836 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
-2020-11-26 19:42:42.986  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 19:42:42.986  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 19:42:42.986  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 19:42:42.986  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 19:42:42.986  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 19:42:42.987  INFO 6836 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 19:42:43.014  INFO 6836 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 19:42:43.022  INFO 6836 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.407 seconds (JVM running for 0.822)
-2020-11-26 19:49:26.736  INFO 6836 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-11-26 19:49:26.737  INFO 6836 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:22:11.340  INFO 8349 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 8349 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:22:11.341  INFO 8349 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
-2020-11-26 20:22:11.540  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:22:11.541  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:22:11.541  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:22:11.541  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:22:11.541  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:22:11.541  INFO 8349 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:22:11.569  INFO 8349 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:22:11.583  INFO 8349 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.409 seconds (JVM running for 0.573)
-2020-11-26 20:22:23.226  INFO 8349 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:30:53.122  INFO 9152 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9152 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:30:53.125  INFO 9152 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:30:53.352  INFO 9152 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:30:53.405  INFO 9152 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:30:53.415  INFO 9152 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.469 seconds (JVM running for 1.223)
-2020-11-26 20:30:53.456  INFO 9152 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.agibank.analysis.ModelTests], using SpringBootContextLoader
-2020-11-26 20:30:53.457  INFO 9152 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.agibank.analysis.ModelTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-11-26 20:30:53.457  INFO 9152 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.agibank.analysis.ModelTests]: ModelTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-11-26 20:30:53.458  INFO 9152 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.agibank.analysis.DesafioAgibankApplication for test class br.com.agibank.analysis.ModelTests
-2020-11-26 20:30:53.459  INFO 9152 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-11-26 20:30:53.460  INFO 9152 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7159139f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@65bcf7c2, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3db64bd4, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6e106680, org.springframework.test.context.event.EventPublishingTestExecutionListener@576c5536, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@55ecbafe, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5a8ba37c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@37c2eacb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@232cce0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@32b9bd12, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@352e787a]
-2020-11-26 20:30:53.481  INFO 9152 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:32:12.535  INFO 9367 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9367 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:32:12.538  INFO 9367 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:32:12.814  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:12.814  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:32:12.814  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:12.815  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:32:12.815  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:32:12.815  INFO 9367 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:32:12.879  INFO 9367 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:32:12.894  INFO 9367 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.52 seconds (JVM running for 1.404)
-2020-11-26 20:32:12.940  INFO 9367 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:32:37.834  INFO 9405 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9405 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:32:37.835  INFO 9405 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:32:38.035  INFO 9405 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:32:38.066  INFO 9405 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:32:38.074  INFO 9405 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.411 seconds (JVM running for 0.701)
-2020-11-26 20:32:41.428  INFO 9405 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2020-11-26 20:32:41.429  INFO 9405 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:32:56.579  INFO 9526 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9526 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:32:56.581  INFO 9526 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:32:56.803  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:56.803  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:32:56.804  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:32:56.804  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:32:56.804  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:32:56.804  INFO 9526 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:32:56.853  INFO 9526 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:32:56.863  INFO 9526 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.447 seconds (JVM running for 1.193)
-2020-11-26 20:32:56.901  INFO 9526 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.agibank.analysis.ModelTests], using SpringBootContextLoader
-2020-11-26 20:32:56.902  INFO 9526 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.agibank.analysis.ModelTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-11-26 20:32:56.902  INFO 9526 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.agibank.analysis.ModelTests]: ModelTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-11-26 20:32:56.903  INFO 9526 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.agibank.analysis.DesafioAgibankApplication for test class br.com.agibank.analysis.ModelTests
-2020-11-26 20:32:56.905  INFO 9526 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-11-26 20:32:56.906  INFO 9526 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3d43fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@74ad8d05, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@676ff3b0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@35ff8fc9, org.springframework.test.context.event.EventPublishingTestExecutionListener@5fb7183b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@476a736d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5f80fa43, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@16c8b7bd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7159139f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65bcf7c2, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3db64bd4]
-2020-11-26 20:32:56.934  INFO 9526 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:35:13.560  INFO 9733 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9733 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:35:13.562  INFO 9733 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:35:13.805  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:35:13.805  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:35:13.806  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:35:13.806  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:35:13.806  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:35:13.806  INFO 9733 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:35:13.876  INFO 9733 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:35:13.886  INFO 9733 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.507 seconds (JVM running for 1.195)
-2020-11-26 20:35:13.934  INFO 9733 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.agibank.analysis.ModelTests], using SpringBootContextLoader
-2020-11-26 20:35:13.935  INFO 9733 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.agibank.analysis.ModelTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-11-26 20:35:13.935  INFO 9733 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.agibank.analysis.ModelTests]: ModelTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-11-26 20:35:13.937  INFO 9733 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.agibank.analysis.DesafioAgibankApplication for test class br.com.agibank.analysis.ModelTests
-2020-11-26 20:35:13.940  INFO 9733 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-11-26 20:35:13.942  INFO 9733 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@f339eae, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2822c6ff, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4dafba3e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@53e3a87a, org.springframework.test.context.event.EventPublishingTestExecutionListener@40368a46, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7e9da981, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4ed38226, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3d43fe, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74ad8d05, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@676ff3b0, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@35ff8fc9]
-2020-11-26 20:35:13.969  INFO 9733 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:38:46.251  INFO 9950 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9950 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:38:46.253  INFO 9950 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:38:46.476  INFO 9950 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:38:46.522  INFO 9950 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:38:46.533  INFO 9950 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.46 seconds (JVM running for 1.297)
-2020-11-26 20:38:46.573  INFO 9950 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:39:07.709  INFO 9990 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9990 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:39:07.712  INFO 9990 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:39:07.951  INFO 9990 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:39:07.999  INFO 9990 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:39:08.012  INFO 9990 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.474 seconds (JVM running for 1.256)
-2020-11-26 20:39:08.052  INFO 9990 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:39:37.006  INFO 10040 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10040 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:39:37.008  INFO 10040 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:39:37.242  INFO 10040 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:39:37.292  INFO 10040 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:39:37.304  INFO 10040 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.472 seconds (JVM running for 1.246)
-2020-11-26 20:39:37.346  INFO 10040 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
-2020-11-26 20:39:53.213  INFO 10146 --- [main] br.com.agibank.analysis.ReadFileTests    : Starting ReadFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10146 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
-2020-11-26 20:39:53.216  INFO 10146 --- [main] br.com.agibank.analysis.ReadFileTests    : No active profile set, falling back to default profiles: default
-2020-11-26 20:39:53.452  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:53.452  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
-2020-11-26 20:39:53.452  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
-2020-11-26 20:39:53.452  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
-2020-11-26 20:39:53.452  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
-2020-11-26 20:39:53.453  INFO 10146 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
-2020-11-26 20:39:53.504  INFO 10146 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
-2020-11-26 20:39:53.515  INFO 10146 --- [main] br.com.agibank.analysis.ReadFileTests    : Started ReadFileTests in 0.477 seconds (JVM running for 1.236)
-2020-11-26 20:39:53.547  INFO 10146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.agibank.analysis.ModelTests], using SpringBootContextLoader
-2020-11-26 20:39:53.548  INFO 10146 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [br.com.agibank.analysis.ModelTests]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-11-26 20:39:53.548  INFO 10146 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.agibank.analysis.ModelTests]: ModelTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-11-26 20:39:53.549  INFO 10146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.agibank.analysis.DesafioAgibankApplication for test class br.com.agibank.analysis.ModelTests
-2020-11-26 20:39:53.550  INFO 10146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2020-11-26 20:39:53.551  INFO 10146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56f71edb, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7207cb51, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2a27cb34, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6892cc6f, org.springframework.test.context.event.EventPublishingTestExecutionListener@6fd1660, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a6c18ad, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5e8604bf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@20095ab4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e2916c3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64aad6db, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@ae7950d]
-2020-11-26 20:39:53.586  INFO 10146 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 00:22:24.850  INFO 6709 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 6709 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:22:24.855  INFO 6709 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:22:25.179  WARN 6709 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'applicationJob': Unsatisfied dependency expressed through field 'reader'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileReaderService': Unsatisfied dependency expressed through field 'store'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'br.com.agibank.analysis.model.Store' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-12-03 00:22:25.185  INFO 6709 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-03 00:22:25.197 ERROR 6709 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field store in br.com.agibank.analysis.service.FileReaderService required a bean of type 'br.com.agibank.analysis.model.Store' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'br.com.agibank.analysis.model.Store' in your configuration.
+
+2020-12-03 00:23:00.971  INFO 6788 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 6788 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:23:00.972  INFO 6788 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:23:01.174  WARN 6788 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'applicationJob': Unsatisfied dependency expressed through field 'reader'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileReaderService': Unsatisfied dependency expressed through field 'store'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'br.com.agibank.analysis.model.Store' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-12-03 00:23:01.179  INFO 6788 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-03 00:23:01.189 ERROR 6788 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field store in br.com.agibank.analysis.service.FileReaderService required a bean of type 'br.com.agibank.analysis.model.Store' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'br.com.agibank.analysis.model.Store' in your configuration.
+
+2020-12-03 00:24:23.300  INFO 6929 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 6929 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:24:23.304  INFO 6929 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:24:23.635  WARN 6929 --- [main] s.c.a.AnnotationConfigApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'applicationJob': Unsatisfied dependency expressed through field 'reader'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileReaderService': Unsatisfied dependency expressed through field 'store'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'br.com.agibank.analysis.model.Store' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-12-03 00:24:23.642  INFO 6929 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-03 00:24:23.656 ERROR 6929 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field store in br.com.agibank.analysis.service.FileReaderService required a bean of type 'br.com.agibank.analysis.model.Store' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'br.com.agibank.analysis.model.Store' in your configuration.
+
+2020-12-03 00:26:00.465  INFO 7046 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 7046 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:26:00.467  INFO 7046 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:26:00.724  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:26:00.725  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 00:26:00.725  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:26:00.725  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 00:26:00.725  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 00:26:00.725  INFO 7046 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 00:26:00.757  INFO 7046 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 00:26:00.769  INFO 7046 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.535 seconds (JVM running for 0.955)
+2020-12-03 00:29:07.216  INFO 7671 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 7671 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:29:07.225  INFO 7671 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:29:07.831  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:29:07.832  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 00:29:07.832  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:29:07.832  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 00:29:07.832  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 00:29:07.832  INFO 7671 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 00:29:07.932  INFO 7671 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 00:29:07.961  INFO 7671 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 1.259 seconds (JVM running for 1.918)
+2020-12-03 00:35:01.313  INFO 8303 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 8303 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:35:01.319  INFO 8303 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:35:01.948  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:35:01.949  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 00:35:01.949  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:35:01.949  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 00:35:01.949  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 00:35:01.949  INFO 8303 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 00:35:02.032  INFO 8303 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 00:35:02.063  INFO 8303 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 1.305 seconds (JVM running for 1.981)
+2020-12-03 00:37:23.091  INFO 8525 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 8525 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:37:23.095  INFO 8525 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 00:37:23.694  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:37:23.694  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 00:37:23.694  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:37:23.694  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 00:37:23.694  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 00:37:23.695  INFO 8525 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 00:37:23.826  INFO 8525 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 00:37:23.862  INFO 8525 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 1.285 seconds (JVM running for 1.925)
+2020-12-03 00:59:02.386  INFO 9919 --- [main] br.com.agibank.analysis.ModelTests       : Starting ModelTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 9919 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 00:59:02.388  INFO 9919 --- [main] br.com.agibank.analysis.ModelTests       : No active profile set, falling back to default profiles: default
+2020-12-03 00:59:02.656  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:59:02.657  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 00:59:02.657  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 00:59:02.657  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 00:59:02.657  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 00:59:02.657  INFO 9919 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 00:59:02.701  INFO 9919 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 00:59:02.711  INFO 9919 --- [main] br.com.agibank.analysis.ModelTests       : Started ModelTests in 0.502 seconds (JVM running for 1.176)
+2020-12-03 00:59:02.846  INFO 9919 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:05:01.474  INFO 10171 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 10171 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:05:01.476  INFO 10171 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:05:01.755  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:05:01.756  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:05:01.756  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:05:01.756  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:05:01.756  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:05:01.756  INFO 10171 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:05:01.815  INFO 10171 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:05:01.826  INFO 10171 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.519 seconds (JVM running for 1.082)
+2020-12-03 01:05:01.932  INFO 10171 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:24:40.546  INFO 12101 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 12101 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:24:40.549  INFO 12101 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:24:40.858  INFO 12101 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:24:40.908  INFO 12101 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:24:40.919  INFO 12101 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.575 seconds (JVM running for 1.282)
+2020-12-03 01:24:41.032  INFO 12101 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:34:57.759  INFO 12929 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 12929 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:34:57.762  INFO 12929 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:34:58.056  INFO 12929 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:34:58.120  INFO 12929 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:34:58.134  INFO 12929 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.598 seconds (JVM running for 1.511)
+2020-12-03 01:34:58.182  INFO 12929 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:50:42.358  INFO 13608 --- [main] b.c.a.a.DesafioAgibankApplication        : Starting DesafioAgibankApplication using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 13608 (/home/carlos/AGIBANK_WKSP/desafio-agibank/target/classes started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:50:42.360  INFO 13608 --- [main] b.c.a.a.DesafioAgibankApplication        : No active profile set, falling back to default profiles: default
+2020-12-03 01:50:42.651  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:50:42.651  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:50:42.652  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:50:42.652  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:50:42.652  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:50:42.652  INFO 13608 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:50:42.696  INFO 13608 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:50:42.711  INFO 13608 --- [main] b.c.a.a.DesafioAgibankApplication        : Started DesafioAgibankApplication in 0.576 seconds (JVM running for 0.997)
+2020-12-03 01:53:12.362  INFO 13987 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 13987 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:53:12.365  INFO 13987 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:53:12.621  INFO 13987 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:53:12.672  INFO 13987 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:53:12.684  INFO 13987 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.486 seconds (JVM running for 1.24)
+2020-12-03 01:53:12.729  INFO 13987 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:54:09.487  INFO 14088 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14088 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:54:09.491  INFO 14088 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:54:09.888  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:54:09.888  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:54:09.888  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:54:09.888  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:54:09.889  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:54:09.889  INFO 14088 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:54:09.970  INFO 14088 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:54:09.987  INFO 14088 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.769 seconds (JVM running for 7.602)
+2020-12-03 01:54:34.695  INFO 14088 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:55:26.789  INFO 14255 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14255 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:55:26.792  INFO 14255 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:55:27.123  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:55:27.123  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:55:27.123  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:55:27.123  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:55:27.123  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:55:27.124  INFO 14255 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:55:27.195  INFO 14255 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:55:27.208  INFO 14255 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.683 seconds (JVM running for 2.082)
+2020-12-03 01:56:42.185  INFO 14255 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:57:19.453  INFO 14479 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14479 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:57:19.457  INFO 14479 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:57:19.773  INFO 14479 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:57:19.836  INFO 14479 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:57:19.850  INFO 14479 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.725 seconds (JVM running for 3.472)
+2020-12-03 01:58:42.042  INFO 14479 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:58:49.106  INFO 14769 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14769 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:58:49.109  INFO 14769 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:58:49.350  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:58:49.350  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:58:49.350  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:58:49.350  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:58:49.351  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:58:49.351  INFO 14769 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:58:49.404  INFO 14769 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:58:49.415  INFO 14769 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.492 seconds (JVM running for 1.547)
+2020-12-03 01:58:49.460  INFO 14769 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 01:59:54.563  INFO 14880 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14880 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 01:59:54.566  INFO 14880 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 01:59:54.837  INFO 14880 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 01:59:54.899  INFO 14880 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 01:59:54.915  INFO 14880 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.516 seconds (JVM running for 1.246)
+2020-12-03 01:59:54.954  INFO 14880 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 02:00:40.668  INFO 14960 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 14960 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 02:00:40.671  INFO 14960 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 02:00:40.902  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:00:40.903  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 02:00:40.903  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:00:40.903  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 02:00:40.903  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 02:00:40.903  INFO 14960 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 02:00:40.953  INFO 14960 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 02:00:40.966  INFO 14960 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.451 seconds (JVM running for 1.145)
+2020-12-03 02:00:41.004  INFO 14960 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 02:01:13.204  INFO 15016 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 15016 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 02:01:13.206  INFO 15016 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 02:01:13.434  INFO 15016 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 02:01:13.484  INFO 15016 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 02:01:13.495  INFO 15016 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.447 seconds (JVM running for 1.137)
+2020-12-03 02:01:13.535  INFO 15016 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 02:09:59.922  INFO 15756 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 15756 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 02:09:59.924  INFO 15756 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 02:10:00.202  INFO 15756 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 02:10:00.265  INFO 15756 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 02:10:00.278  INFO 15756 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.525 seconds (JVM running for 1.28)
+2020-12-03 02:10:00.318  INFO 15756 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-03 02:13:13.248  INFO 15902 --- [main] br.com.agibank.analysis.WriteFileTests   : Starting WriteFileTests using Java 1.8.0_201 on sergio-OptiPlex-3060 with PID 15902 (started by sergio in /home/carlos/AGIBANK_WKSP/desafio-agibank)
+2020-12-03 02:13:13.250  INFO 15902 --- [main] br.com.agibank.analysis.WriteFileTests   : No active profile set, falling back to default profiles: default
+2020-12-03 02:13:13.473  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:13:13.474  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  :  INI JOB
+2020-12-03 02:13:13.475  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  : -------------------
+2020-12-03 02:13:13.475  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  : Local directories created:
+2020-12-03 02:13:13.475  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/in/
+2020-12-03 02:13:13.475  INFO 15902 --- [main] b.c.agibank.analysis.job.ApplicationJob  : /home/carlos/data/out/
+2020-12-03 02:13:13.537  INFO 15902 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-03 02:13:13.548  INFO 15902 --- [main] br.com.agibank.analysis.WriteFileTests   : Started WriteFileTests in 0.475 seconds (JVM running for 1.292)
+2020-12-03 02:13:13.587  INFO 15902 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'

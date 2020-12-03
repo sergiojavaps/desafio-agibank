@@ -27,8 +27,8 @@ public class Salesman extends GenericType {
     }
 
     @Override
-    public void store(SaleSummary storage) {
-        storage.addVendor(this);
+    public void store(Store store) {
+    	store.addVendor(this);
     }
 
 }

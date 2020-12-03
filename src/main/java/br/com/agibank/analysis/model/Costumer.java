@@ -1,7 +1,5 @@
 package br.com.agibank.analysis.model;
 
-
-
 public class Costumer extends GenericType {
 
     private final String cnpj;
@@ -27,7 +25,7 @@ public class Costumer extends GenericType {
     }
 
     @Override
-    public void store(SaleSummary storage) {
-        storage.addCosutmer(this);
+    public void store(Store store) {
+        store.addCosutmer(this);
     }
 }
