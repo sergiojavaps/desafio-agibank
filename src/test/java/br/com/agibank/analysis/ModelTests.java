@@ -54,18 +54,14 @@ class ModelTests {
     void testSaleLineSummary() {
         String[] line = {"003ç25ç[21-200-800]çVan Bastern"};
         read.lineInterpreter(Arrays.stream(line), store);
-
         Sale sale = store.getSales().get(0);
         ProductSale productSale = sale.getProducts().get(0);
         Product product = productSale.getProduct();
-
         assertEquals(new Integer(25), sale.getId());
         assertEquals(new String("Van Bastern"), sale.getSalesman());
-
         assertEquals(new Integer(25), productSale.getSaleID());
         assertEquals(new Integer(200), productSale.getQuantity());
         assertEquals(new Double(160000), productSale.getTotalValue());
-
         assertEquals(new Integer(21), product.getId());
         assertEquals(new Double(800), product.getValue());
     }

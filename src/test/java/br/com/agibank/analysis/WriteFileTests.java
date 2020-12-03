@@ -1,22 +1,16 @@
 package br.com.agibank.analysis;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.doNothing;
-import static org.mockito.Mockito.verify;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Arrays;
+import java.io.File;
+import java.io.IOException;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import br.com.agibank.analysis.configuration.ConfigProperties;
-import br.com.agibank.analysis.model.Store;
+import br.com.agibank.analysis.service.FileFinderService;
 import br.com.agibank.analysis.service.FileReaderService;
 import br.com.agibank.analysis.service.FileWriterService;
 import br.com.agibank.analysis.service.SaleSummaryService;
@@ -26,41 +20,24 @@ class WriteFileTests {
 
 	@Autowired
 	private ConfigProperties configProperties;
-	private Store store;
 	@Autowired
 	private FileReaderService read;
 	@Autowired
 	private SaleSummaryService saleSummaryService;
-	@Mock
+	@Autowired
 	FileWriterService write;
-	
-	@BeforeEach
-    void Setup(){
-		store = new Store();
-    }
+	@Autowired
+	FileFinderService finder;
 	
 	@Test
-	void testWriteFile() {
-		
-		Path pathIn = Paths.get(configProperties.getInpuFilePath() + "xmen.dat");
-		
-		String pathOut = configProperties.getInputFilePathTest();
-		
-		String[] salesmanLine = {"001ç93616248060çLoganç5240.03"};
-	    read.lineInterpreter(Arrays.stream(salesmanLine), store);
-	    	    
-	    String[] costumerLine = {"002ç11467794000114çTony StarkçCiência"};
-        read.lineInterpreter(Arrays.stream(costumerLine), store);
-              
-        String[] SalesLine = {"003ç25ç[21-200-800]çVan Bastern"};
-        read.lineInterpreter(Arrays.stream(SalesLine), store);
-        
-        doNothing().when(write).generateFile(any(Path.class), any(Store.class), anyString(), any(SaleSummaryService.class));
-	    
-        write.generateFile(pathIn, store, pathOut, saleSummaryService);
-        
-        verify(write).generateFile(any(Path.class), any(Store.class), anyString(), any(SaleSummaryService.class));
-        
+	void testWriteFile() throws IOException {										   
+		new File(configProperties.getInputFilePathTest()).mkdirs();
+		new File(configProperties.getOutputFilePathTest()).mkdirs();
+		finder.search(configProperties.getInputFilePathTest()).stream()
+		.forEach(file -> read.readFile(file, configProperties.getOutputFilePathTest(), saleSummaryService));         
+        File directory = new File(configProperties.getOutputFilePathTest()); 
+        File[] files = directory.listFiles();                     
+        assertEquals(1, files.length);
 	}
 
 }
