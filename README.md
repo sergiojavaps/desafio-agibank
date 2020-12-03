@@ -46,7 +46,7 @@ Os dados de vendas têm o formato id 003. Dentro da linha de vendas, existe a li
 2. Na raiz do projeto, executar o comando: ./mvnw spring-boot:run
 - copiar os arquivos .dat para diretório de entrada %HOMEPATH%/data/in, e observar a construção do arquivo de saída em %HOMEPATH%/data/out.
 3. Com Docker: 
-- docker pull sergiomelo/desafio-agibank:0.0.1
-- docker container run -it a14fea28e048
+- docker pull sergiomelo/desafio-agibank
+- docker container run -it 914b74f13299
 - copiar os arquivos .dat para o diretório de entrada %HOMEPATH%/data/in, dentro do seu container, e observar a construção do arquivo de saída em %HOMEPATH%/data/out.
 
