@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.stereotype.Service;
 
-import br.com.agibank.analysis.model.Store;
+import br.com.agibank.analysis.model.GenericStore;
 
 
 /**
@@ -20,7 +20,8 @@ import br.com.agibank.analysis.model.Store;
 @Service
 public class FileWriterService {
 	
-	public void generateFile(Path file, Store store, String outputFilePath, SaleSummaryService saleSummaryService) {
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public void generateFile(Path file, GenericStore store, String outputFilePath, SaleSummaryService saleSummaryService) {
 		try {
 			StringBuilder outputFileName = new StringBuilder().append(outputFilePath).append(FilenameUtils
 	    			.getBaseName(file.toString())).append(".done.dat"); 

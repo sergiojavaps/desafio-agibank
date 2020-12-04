@@ -39,8 +39,9 @@ public class Sale extends GenericType{
         return products;
     }
 
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Override
-	public void store(Store store) {
+	public void store(GenericStore store) {
 		store.addSale(this);
 	}
 

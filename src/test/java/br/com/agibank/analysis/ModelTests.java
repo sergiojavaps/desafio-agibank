@@ -14,27 +14,29 @@ import br.com.agibank.analysis.model.Product;
 import br.com.agibank.analysis.model.ProductSale;
 import br.com.agibank.analysis.model.Sale;
 import br.com.agibank.analysis.model.Salesman;
-import br.com.agibank.analysis.model.Store;
+import br.com.agibank.analysis.model.GenericStore;
 import br.com.agibank.analysis.service.FileReaderService;
 
 
 @SpringBootTest
 class ModelTests {
 
-	private Store store;
+	@SuppressWarnings("rawtypes")
+	private GenericStore store;
 	@Autowired
 	private FileReaderService read;
 	
+	@SuppressWarnings("rawtypes")
 	@BeforeEach
     void Setup(){
-		store = new Store();
+		store = new GenericStore();
     }
 
 	@Test 
 	void testSalesmanLineSummary() {
 		String[] line = {"001ç93616248060çLoganç5240.03"};
 	    read.lineInterpreter(Arrays.stream(line), store);
-	    Salesman salesman = store.getSalespeople().get(0);
+	    Salesman salesman = (Salesman) store.getSalespeople().get(0);
 	    assertEquals(new String("93616248060"), salesman.getCpf());
 	    assertEquals(new String("Logan"), salesman.getName());
 	    assertEquals(new Double(5240.03), salesman.getSalary());
@@ -44,7 +46,7 @@ class ModelTests {
     void testCostumerLineSummary() {
         String[] line = {"002ç11467794000114çTony StarkçCiência"};
         read.lineInterpreter(Arrays.stream(line), store);
-        Costumer costumer = store.getCostumers().get(0);
+        Costumer costumer = (Costumer) store.getCostumers().get(0);
         assertEquals(new String("11467794000114"), costumer.getCnpj());
         assertEquals(new String("Tony Stark"), costumer.getName());
         assertEquals(new String("Ciência"), costumer.getBusinessArea());
@@ -54,7 +56,7 @@ class ModelTests {
     void testSaleLineSummary() {
         String[] line = {"003ç25ç[21-200-800]çVan Bastern"};
         read.lineInterpreter(Arrays.stream(line), store);
-        Sale sale = store.getSales().get(0);
+        Sale sale = (Sale) store.getSales().get(0);
         ProductSale productSale = sale.getProducts().get(0);
         Product product = productSale.getProduct();
         assertEquals(new Integer(25), sale.getId());

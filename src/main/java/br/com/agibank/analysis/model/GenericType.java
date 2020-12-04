@@ -14,8 +14,7 @@ public abstract class GenericType {
         }
         return null;
     }
-
-   // public abstract void store(SaleSummary storage);
-    
-    public abstract void store(Store storage);
+ 
+    @SuppressWarnings("rawtypes")
+	public abstract void store(GenericStore store);
 }

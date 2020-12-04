@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.agibank.analysis.model.GenericType;
-import br.com.agibank.analysis.model.Store;
+import br.com.agibank.analysis.model.GenericStore;
 
 /**
  * 
@@ -27,7 +27,8 @@ public class FileReaderService {
 	
 	public void readFile(Path file, String outputFilePath, SaleSummaryService saleSummaryService) {
 		try {		    
-			Store store = new Store();
+			@SuppressWarnings("rawtypes")
+			GenericStore store = new GenericStore();
 		    Stream<String> stream = Files.lines(file);
 		    lineInterpreter(stream, store);
 		    fileWriterService.generateFile(file, store, outputFilePath, saleSummaryService);
@@ -37,7 +38,8 @@ public class FileReaderService {
 		}
 	}
 
-    public void lineInterpreter(Stream<String> stream, Store store){
+    @SuppressWarnings("rawtypes")
+	public void lineInterpreter(Stream<String> stream, GenericStore store){
         stream.map(line -> line.split("ç"))
                 .collect(Collectors.toList())
                 .forEach(line -> GenericType.identify(line).store(store));

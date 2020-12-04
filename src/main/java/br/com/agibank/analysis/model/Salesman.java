@@ -26,8 +26,9 @@ public class Salesman extends GenericType {
         return salary;
     }
 
-    @Override
-    public void store(Store store) {
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+	@Override
+    public void store(GenericStore store) {
     	store.addVendor(this);
     }
 

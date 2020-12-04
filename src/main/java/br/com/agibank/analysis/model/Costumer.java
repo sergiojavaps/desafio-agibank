@@ -24,8 +24,9 @@ public class Costumer extends GenericType {
         return businessArea;
     }
 
-    @Override
-    public void store(Store store) {
+    @SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+    public void store(GenericStore store) {
         store.addCosutmer(this);
     }
 }
