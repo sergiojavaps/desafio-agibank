@@ -1,7 +1,5 @@
 package br.com.agibank.analysis.model;
 
-
-
 public class Salesman extends GenericType {
 
     private final String cpf;
